@@ -33,10 +33,8 @@ BOARD_KERNEL_BASE := 0x80000000
 # BOARD_KERNEL_CMDLINE :=
 
 # Define kernel config for inline building
-TARGET_KERNEL_CONFIG := cyanogenmod_tuna_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/tuna
-
-TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
+TARGET_KERNEL_CONFIG := franco_defconfig
+TARGET_KERNEL_SOURCE := ../external/franco_tuna
 
 TARGET_NO_RADIOIMAGE := true
 TARGET_BOARD_PLATFORM := omap4
